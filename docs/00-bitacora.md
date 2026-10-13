@@ -7,12 +7,12 @@ las evidencias utiles; evita frases generales como "he trabajado en Proxmox".
 ## Sesion 01 - 06/10/2026
 
 - Objetivo: iniciar GitHub y la documentacion Markdown.
-- Acciones realizadas: PENDIENTE: configuraciones, cambios o investigacion.
-- Decisiones y motivos: PENDIENTE: eleccion realizada y alternativas valoradas.
-- Pruebas y resultados: PENDIENTE: resultado esperado, comando o metodo y resultado obtenido.
+- Acciones realizadas: cree el repositorio individual en GitHub.  Añadi la estructura obligatoria de carpetas (docs, scripts, ansible y evidencias) con los documentos Markdown de la plantilla. He publicado el primer commit y entregue la URL del repositorio.
+- Decisiones y motivos: he eleegido la modalidad fisica, porque dispongo de un equipo que se puede usar para instalar Proxmox directamente.
+- Pruebas y resultados: he comprobado en la web de GitHub que aparece el primer commit con toda la estructura y que los enlaces del indice del README abren cada documento.
 - Documentos o evidencias: [Ficha inicial](00-ficha-inicial.md).
-- Incidencias y solucion o estado pendiente: PENDIENTE.
-- Siguiente paso: PENDIENTE: accion concreta para la proxima sesion.
+- Incidencias y solucion o estado pendiente: ninguna incidencia al crear y publicar el repositorio.
+- Siguiente paso: investigar el hardware del equipo con los comandos de inventario y redactar el inventario y la viabilidad.
 
 Anadir una entrada con esta estructura en cada sesion. El historial de
 GitHub registra los commits; no hace falta incluir el hash del propio
@@ -21,15 +21,12 @@ commit dentro de su entrada de bitacora.
 ## Sesion 02 - 13/10/2026
 
 - Objetivo: investigacion de componentes de nuestro equipo fisico y comprobacion de su viabilidad
-- Acciones realizadas: PENDIENTE: configuraciones, cambios o investigacion.
-- Decisiones y motivos: PENDIENTE: eleccion realizada y alternativas valoradas.
-- Pruebas y resultados: PENDIENTE: resultado esperado, comando o metodo y resultado obtenido.
-- Documentos o evidencias: [Ficha inicial](00-ficha-inicial.md).
-- Incidencias y solucion o estado pendiente: PENDIENTE.
-- Siguiente paso: PENDIENTE: accion concreta para la proxima sesion.
+- Acciones realizadas: he ejecutado en el PC lscpu, free -h, lsblk, df -h, ip -br addr, lspci -nnk y systemd-detect-virt. Desde una ISO Live Debian he sacado dmidecode (system, baseboard, bios y memory). He consultado  los requisitos y la descarga de Proxmox VE, la ficha de Intel del G4560, la de la placa ASUS PRIME B250M-A.
+- Decisiones y motivos: modalidad fisica, porque el equipo cumple los requisitos de Proxmox VE (x86_64, unos 8 GiB de RAM y SSD de 447 GiB). La RAM es el componente que mejoraria primero, ya que hay 2 slots libres y la placa admite hasta 64 GB.
+- Pruebas y resultados: esperaba ver VT-x activo. lscpu muestra VT-x  pero la linea Itlb multihit dice KVM: Mitigation: VMX disabled, asi que hay que activarlo en  la BIOS systemd-detect-virt devuelve none, por lo que es hardware fisico.
+- Documentos o evidencias: [Inventario](01-inventario-hardware.md)
+- Incidencias y solucion o estado pendiente: Intel indica que el G4560 admite ECC, pero la placa y los modulos no, asi que no hay ECC.
+- Siguiente paso: diseño de la red
 
-Anadir una entrada con esta estructura en cada sesion. El historial de
-GitHub registra los commits; no hace falta incluir el hash del propio
-commit dentro de su entrada de bitacora.
 
 [Volver al indice](../README.md)

@@ -8,8 +8,9 @@ limitaciones que sigan abiertas.
 
 ## Resumen
 
-PENDIENTE: describir en un parrafo que se va a construir, para quien y con que
-resultado esperado. Revisar este resumen al cerrar el proyecto.
+## Resumen
+
+En este proyecto voy a construir un laboratorio de virtualizacion sobre un nodo Proxmox VE instalado directamente en un ordenador fisico o en VirtualBox. Sobre el nodo creare dos maquinas un servidor y un cliente.
 
 ## Necesidad y objetivos
 

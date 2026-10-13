@@ -1,16 +1,16 @@
 # Proyecto Intermodular: nodo Proxmox individual
 
-Alumno/a: Selva_David
+Alumno/a: David Selva
 
 URL GitHub: https://github.com/David-git134/pi-proxmox-selva-lopez-david.git
 
 ## Objetivo
 
-PENDIENTE: La construcciom de un nodo Proxmox, desplegar un servidor Linux y un cliente, administrar un servicio ASO y demostrar que se puede automatizar.
+Nuestro objetivo es la construcción de un nodo Proxmox, desplegar un servidor Linux y un cliente, administrar un servicio ASO y demostrar que se puede automatizar.
 
 ## Modalidad
 
-PENDIENTE: fisica
+Física
 
 ## Indice de documentacion
 
@@ -30,10 +30,10 @@ PENDIENTE: fisica
 
 ## Estado
 
-- [ ] GitHub creado y primer commit publicado
-- [ ] URL entregada y acceso docente comprobado
-- [ ] Modalidad indicada
-- [ ] Inventario
+- [X] GitHub creado y primer commit publicado
+- [X] URL entregada y acceso docente comprobado
+- [X] Modalidad indicada
+- [X] Inventario
 - [ ] Diagrama de red
 - [ ] Instalacion Proxmox
 - [ ] Plantilla Linux
