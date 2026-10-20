@@ -28,5 +28,15 @@ commit dentro de su entrada de bitacora.
 - Incidencias y solucion o estado pendiente: Intel indica que el G4560 admite ECC, pero la placa y los modulos no, asi que no hay ECC.
 - Siguiente paso: diseño de la red
 
+## Sesion 03 - 20/10/2026
+
+- Objetivo: Diseño de nuestra red en Virtualbox para instalar Proxmox
+- Acciones realizadas: He tenido que pensar la estructura de la red y sin configurar nada todavia he hecho el diseño de la red para posteriormente aplicar este diseño.
+- Decisiones y motivos: Aqui las unicas decisiones que he tomado han sido los parametros de red como IPs, poniendo los que yo he pensado que eran mas convenientes.
+- Pruebas y resultados: Aqui no pongo nada ya que en esta sesion no he tenido que realizar ninguna prueba.
+- Documentos o evidencias: [Diagrama de red](docs/02-diagrama-red.md)
+- Incidencias y solucion o estado pendiente: En esta sesion no he tenido ninguna incidencia
+- Siguiente paso: Instalacion de Proxmox
+
 
 [Volver al indice](../README.md)

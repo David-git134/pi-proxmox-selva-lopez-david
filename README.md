@@ -10,7 +10,7 @@ Nuestro objetivo es la construcción de un nodo Proxmox, desplegar un servidor L
 
 ## Modalidad
 
-Física
+Virtual
 
 ## Indice de documentacion
 
@@ -34,7 +34,7 @@ Física
 - [X] URL entregada y acceso docente comprobado
 - [X] Modalidad indicada
 - [X] Inventario
-- [ ] Diagrama de red
+- [X] Diagrama de red
 - [ ] Instalacion Proxmox
 - [ ] Plantilla Linux
 - [ ] VMs/LXC
