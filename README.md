@@ -35,7 +35,7 @@ Virtual
 - [X] Modalidad indicada
 - [X] Inventario
 - [X] Diagrama de red
-- [ ] Instalacion Proxmox
+- [X] Instalacion Proxmox
 - [ ] Plantilla Linux
 - [ ] VMs/LXC
 - [ ] Servicio ASO
