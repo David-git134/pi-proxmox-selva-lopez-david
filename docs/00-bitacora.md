@@ -42,7 +42,7 @@ commit dentro de su entrada de bitacora.
 
 - Objetivo: Instalacion de Proxmox en una Maquina Virtual en Virtualbox
 - Acciones realizadas: He tenido que instalar Proxmox con la configuracion y adaptadores de red correspondientes. Una vez instalado he modificado el archivo de configuracion de las interfaces creando dos puentes y enlazandolos a los dos adaptadores de red. Por ultimo he comprobado que me he podido conectar al panel web de Proxmox.
-- Decisiones y motivos: Las decisiones que he tomado han sido la asignacion de recursos necesarios para el correcto funcionamiento, dos adaptadores de red (nat y solo anfitrion) y por ultimo he configurado algunas de las IP que propuse en la sesion 02.
+- Decisiones y motivos: Las decisiones que he tomado han sido la asignacion de recursos necesarios para el correcto funcionamiento, dos adaptadores de red (Red NAT y solo anfitrion) y por ultimo he configurado algunas de las IP que propuse en la sesion 02.
 - Pruebas y resultados: Aqui la unica prueba que he hecho ha sido poder conectarme al panel web de Proxmox desde mi equipo anfitrion con la IP configurada de la red solo anfitrion.
 - Documentos o evidencias: [Instalacion de Proxmox](/docs/03-instalacion-proxmox.md)
 - Incidencias y solucion o estado pendiente: En esta sesion no he tenido ninguna incidencia
